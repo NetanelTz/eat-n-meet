@@ -1,0 +1,5 @@
+requests==2.25.1
+Flask==1.1.2
+tinydb==4.4.0
+sympy==1.8
+python-firebase~=1.2
