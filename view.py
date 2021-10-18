@@ -50,10 +50,10 @@ def handle_msg():
             return Response("success")
         msg = (request.get_json()['message']['text']).split(" ")
         cmd = msg[0]
-        if len(msg) == 2:
+        /*if len(msg) == 2:
             parameter = msg[1]
             if msg[1].isnumeric():
-                'NumberController.create(parameter)'
+                'NumberController.create(parameter)'*/
         try:
             if cmd == '/newuser':
                 controller.new_user(msg[1], msg[2], '', '')
